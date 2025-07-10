@@ -57,42 +57,27 @@ KPI Cards (Top Center)
 
 ⭐ Average Rating: 3.9
 
-Filter Panel (Left Side)
-Dropdown slicers to filter visuals based on:
-
-Outlet Location Type
-
-Outlet Size
-
-Item Type
+Filter Panel
+Interactive slicers for Outlet Location, Outlet Size, and Item Type allow focused exploration of sales metrics.
 
 Sales by Fat Content (Donut Chart)
-Breakdown of total sales by low-fat and regular fat content categories.
+Breakdown of total sales across low-fat and regular-fat product categories.
 
 Item Type Sales (Bar Chart)
-Performance of different item types in terms of total sales (Fruits, Snacks, Dairy, etc.)
+Shows performance of major categories like Fruits, Snacks, and Dairy.
 
-Outlet Establishment (Area Chart)
-Sales trend over the years, based on the year of outlet establishment.
+Outlet Establishment Trend (Area Chart)
+Visualizes sales based on year of outlet setup, highlighting maturity and growth patterns.
 
 Outlet Size (Donut Chart)
-Sales split among small, medium, and high-capacity outlets.
+Displays how sales vary by store capacity — small, medium, and large.
 
 Outlet Location (Bar Chart)
-Tier-wise distribution of sales performance by region.
+Tracks sales distribution across city tiers (Tier 1, 2, 3).
 
 Outlet Type Summary (Matrix Table)
-Complete breakdown of:
+Summarizes: Total Sales, Items Sold, Average Sales, Customer Rating, and Item Visibility.
 
-Total Sales
-
-Number of Items
-
-Average Sales
-
-Average Rating
-
-Item Visibility
 
 • Business Impact & Insights
 
