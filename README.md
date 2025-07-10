@@ -1,100 +1,93 @@
 # Blinkit-Dashboard
-📦 Blinkit Sales Analysis Dashboard
-1. Project Title 📦
-Blinkit Sales Analysis: Power BI Dashboard for Outlet & Product Insights
-An interactive business intelligence dashboard built to explore Blinkit’s sales performance across item types, outlet characteristics, and customer behavior metrics.
+1. Project Title / Headline
+📦 Blinkit Sales Analysis: Power BI Dashboard for Outlet & Product Insights
+An interactive and dynamic Power BI dashboard built to analyze Blinkit’s retail data — focusing on item categories, outlet    characteristics, sales performance, and customer behavior.
 
-2. Project Overview 🎯
-This Power BI report provides a comprehensive analysis of Blinkit’s retail data, focusing on how factors like product fat content, outlet size, and location influence sales.
+3. Short Description / Purpose
+   This dashboard is designed to help Blinkit’s business users explore and compare key sales trends across outlets and products. It enables smarter decisions around    product strategy, outlet performance, and customer satisfaction by visualizing patterns in fat content, outlet size, and regional sales.
 
-It helps business users identify key performance trends and uncover opportunities to improve product placement, outlet efficiency, and customer satisfaction.
+4. Tech Stack
+   The dashboard was built using the following tools and technologies:
+   • 📊 Power BI Desktop – Primary platform for data modeling and report creation.
+   • 📂 Power Query Editor – Used for transforming, cleaning, and structuring raw datasets.
+   • 🧠 DAX (Data Analysis Expressions) – Created measures and logic to derive KPIs and interactive insights.
+   • 📝 Data Modeling – Relationships established between dimension and fact tables to enable accurate cross-filtering.
+   • 📁 File Format – .pbix for the development file, .png for static dashboard previews.
 
-3. Tech Stack 🛠️
-Power BI Desktop – Used for developing the report
+5. Data Source
+   Source: Simulated retail dataset modeled to reflect Blinkit’s operations.
+   The dataset includes structured details on:
+   Outlet Information: Size, type, location tier, and establishment year
+   Product Categories: Item types and fat content (low fat vs. regular)
+   Sales Metrics: Total sales, number of items sold, average sales, and average customer ratings
 
-Power Query Editor – For data transformation and cleaning
+6. Features / Highlights
+   • Business Problem
+     Blinkit’s wide mix of products and diverse outlet base poses a challenge for tracking performance drivers. There’s a need for a consolidated view that  captures how item and outlet attributes influence sales outcomes and customer satisfaction.
 
-DAX (Data Analysis Expressions) – Used to calculate KPIs, derive insights, and drive interactivity
+   • Goal of the Dashboard
+     To deliver a central, user-friendly dashboard that:
+     Provides sales, marketing, and operations teams with actionable KPIs
+     Highlights trends segmented by outlet type, size, and product category
+     Supports business strategy around inventory, store expansion, and customer retention
 
-Data Modeling – Relationships created across fact and dimension tables for cross-filtering
+   • Key Visual Components
 
-File Format – .pbix (Power BI file), .png (dashboard preview images)
+     KPI Cards (Top Center)
 
-4. Data Source 📂
-The dataset is structured to reflect real-world Blinkit operations, including:
+     🧾 Total Sales: $1.2M
 
-Outlet Information: Size, type, location tier, and establishment year
+     🛍️ Items Sold: 8,523
 
-Product Categories: Item types and fat content (low fat vs regular)
+     📊 Average Sales: $141
 
-Sales Data: Total sales, number of items sold, average sales, and average customer ratings
+     ⭐ Avg. Rating: 3.9
 
-5. Features / Highlights 📊
-• Business Problem
+   Filter Panel (Left Side)
+   Interactive slicers allow dynamic filtering by:
 
-Blinkit operates with a diverse product mix and a wide range of outlets.
+   Outlet Location Type
+   Outlet Size
+   Item Type
 
-Business users need a consolidated tool to analyze which factors (e.g., item type, fat content, outlet size) drive sales performance and customer satisfaction.
+   Sales by Fat Content (Donut Chart)
+   Breaks down total sales into low-fat and regular-fat product groups—shedding light on health-driven consumer preferences.
 
-• Goal of the Dashboard
-To provide a centralized, user-friendly dashboard that:
+   Item Type Sales (Bar Chart)
+   Compares revenue across product categories like Fruits, Snacks, and Dairy—helping spot top-selling items.
 
-Enables sales and marketing teams to track key performance metrics
+   Establishment Year Trend (Area Chart)
+   Tracks sales by the year of outlet setup, helping identify growth trends by outlet maturity.
 
-Highlights trends based on outlet characteristics and product categories
+   Outlet Size Distribution (Donut Chart)
+   Visualizes how sales performance differs between small, medium, and large store formats.
 
-Supports business decisions for outlet management, inventory planning, and customer strategy
+   Outlet Location Sales (Bar Chart)
+   Maps revenue by city tier (Tier 1, 2, 3)—revealing regional sales strengths and areas of opportunity.
 
-• Walkthrough of Key Visuals
+   Outlet Summary Table (Matrix)
+   Consolidated overview of key outlet-level metrics:
 
-KPI Cards (Top Center)
-
-🧾 Total Sales: $1.2M
-
-🛍️ Number of Items Sold: 8523
-
-📊 Average Sales: $141
-
-⭐ Average Rating: 3.9
-
-Key Visual Components
-Filter Panel-
-Interactive slicers for Outlet Location, Outlet Size, and Item Type allow users to segment data and explore sales patterns across different dimensions.
-
-Sales by Fat Content (Donut Chart)-
-Breaks down total sales between low-fat and regular-fat product categories to highlight consumer preferences.
-
-Item Type Performance (Bar Chart)-
-Compares sales across categories like Fruits, Snacks, and Dairy to identify high-performing products.
-
-Establishment Trend (Area Chart)-
-Analyzes sales by outlet establishment year to uncover trends related to store maturity and lifecycle.
-
-Outlet Size Distribution (Donut Chart)-
-Shows how sales are spread across small, medium, and large outlets—informing store planning and operations.
-
-Location-wise Sales (Bar Chart)-
-Evaluates performance across Tier 1, 2, and 3 cities, offering insight into regional opportunities.
-
-Outlet Summary Table (Matrix)-
-Brings together key metrics: Total Sales, Items Sold, Average Sales, Customer Rating, and Item Visibility—in a consolidated format for business review.
-
+   Total Sales
+   Items Sold
+   Average Sales
+   Customer Rating
+   Item Visibility
 
 • Business Impact & Insights
+  ✅ Inventory Planning
+      Reveals which item categories generate the most revenue—informing stock prioritization.
 
-✅ Inventory Planning
-Helps identify which item types drive the most revenue and need prioritization.
+  ✅ Outlet Strategy
+      Guides decisions on expansion or revamping based on outlet size, age, and performance.
 
-✅ Outlet Strategy
-Analyze how size, type, and age of outlets influence sales—guiding expansion or renovation.
+  ✅ Marketing Personalization
+      Supports tailored campaigns using sales insights by region, outlet type, and item category.
 
-✅ Marketing Personalization
-Tier- and item-based sales insights enable targeted promotions and offers.
-
-✅ Customer Sentiment Analysis
-Ratings help evaluate satisfaction across product and outlet types—useful for service refinement.
+  ✅ Customer Sentiment Analysis
+      Incorporates average ratings to help evaluate satisfaction across store and product types—enabling service improvements.
 
 6.  Screenshots / Demos  
-Show what the dashboard looks like. - ![Alt_text](https://github.com/username/repo/assets/image.png)  
-Example: ![Dashboard Preview](https://github.com/aditi674/Blinkit-Dashboard/blob/main/Dashboard%20Final%20Look.jpg)
+    Show what the dashboard looks like. - ![Alt_text](https://github.com/username/repo/assets/image.png)  
+    Example: ![Dashboard Preview](https://github.com/aditi674/Blinkit-Dashboard/blob/main/Dashboard%20Final%20Look.jpg)
 
